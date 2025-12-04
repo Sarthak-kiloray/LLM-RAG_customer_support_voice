@@ -32,21 +32,11 @@ This project allows users to ask natural-language questions about uploaded or sc
 ### **3. Gradio Interface**
 - Clean chat-style question box  
 - Audio output widget  
+
 - Real-time document search  
 - RAG debug output included (optional)  
 
 ---
 
-## 📦 Project Structure
-
-├── app.py # Gradio UI and main agent
-├── ingest.py # Build knowledge base (scrape > chunk > embed > save)
-├── rag_chain.py # Retrieval + LLM chain definition
-├── tts_agent.py # Text-to-speech helper
-├── fetch_utils.py # (Optional) Your custom website extractor
-│
-├── chroma_db/ # Auto-created: vector store persistence
-├── docs/ # (Optional) local markdown/text docs
-│
-├── requirements.txt
-└── README.md
+## 📦 OUTPUT
+<img width="1470" height="799" alt="Screenshot 2025-12-04 at 6 49 27 PM" src="https://github.com/user-attachments/assets/d2654f30-4fae-4dc9-830b-7820cf832893" />
