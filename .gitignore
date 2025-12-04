@@ -1,0 +1,37 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.swp
+*.swo
+
+# Virtual environments
+venv/
+.env
+*.env
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Chroma DB persistence
+chroma_db/
+chroma_db/*
+
+# Gradio temporary artifacts
+.gradio/
+__results__/
+
+# Jupyter (if you ever add notebooks)
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Token files
+*.pem
+*.key
